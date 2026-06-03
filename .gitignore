@@ -1,0 +1,162 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & API Keys
+.env
+.env.local
+.env.*.local
+*.env
+*_key.txt
+*_token.txt
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# API Keys - CRITICAL
+# Never commit API keys!
+DIAL_API_KEY
+*.api_key
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Docker volumes and persistent data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code
+.claude/
+*.output
+
+# Task output files
+tasks/
+.tasks/
+
+# Cache
+.cache/
+*.cache
+
+# Local configuration
+*.local
+local_settings.py
+
+# Build artifacts
+*.whl
+
+# Claude Code plans (optional - you may want to commit these)
+# Remove the line below if you want to track implementation plans
+# .claude/plans/
+
+# Test files (optional - uncomment if you don't want to commit test files)
+# test_*.py
+# *_test.py
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.backup
+*~
+
+# Large files or datasets
+*.csv
+*.xlsx
+*.xls
+*.data
+datasets/
+
+# Model files (if you download any)
+*.model
+*.pkl
+*.pickle
+models/
+
+# Configuration overrides
+config.local.json
+settings.local.json
